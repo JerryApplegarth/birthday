@@ -53,8 +53,25 @@ body {
 }
 
 /* First Gift Box */
+/* the figt box image */
 
+/* gift box image */
+.gift-img {
+  height: 400px;
+  width: 400px;
+  background-image: url("/public/img/gift.jpg");
+  background-size: cover;
+  
+  margin-bottom: 20px;
+  border: 5px solid #fff;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 
+}
+.gift-img:hover {
+  
+}
 
 /* gift box */
 .gift-section {
@@ -64,28 +81,24 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
+  margin-top: 0;
   margin-left: 40px;
   margin-right: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
   border-radius: 10px;
 }
 
-/* gift box image */
-.gift-img{
-
-  width: 400px;
-  margin-bottom: 20px;
-  border: 5px solid #fff;
-
-}
-
-/* gift box text */
+/* gift box text h2*/
 .gift-title {
   color: white;
   text-shadow: 1px 1px 2px #000;
+
 }
 
+/* gift box text h4 */
 .gift-hint {
   color: white;
   text-shadow: 1px 1px 2px #000;
+  margin-top: 0;
+
 }
